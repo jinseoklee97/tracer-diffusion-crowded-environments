@@ -121,7 +121,7 @@ Experiment/MPT/Videos/
 Then edit the following user settings in `MPT_Main.m`:
 
 ```matlab
-filename = '0.72';
+filename = 'SP 0.72 AF_2000frame';
 maxdisp = 10;
 nt = 2000;
 dt = 0.5;
@@ -193,7 +193,7 @@ Experiment/AIUQ/Videos/
 Then edit the user settings in `AIUQ_nonparametric.R`:
 
 ```r
-file_name = "40%_1"
+file_name = "SP 0.72 AF_500frame"
 mindt = 2
 pxsz = 0.293
 M = 100
