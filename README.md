@@ -873,7 +873,7 @@ If you use this repository, please cite the associated manuscript:
 ```text
 Lee, J., Lin, T., Gu, M., and Luo, Y.
 Accessible pore geometry governs tracer diffusion in crowded environments.
-Manuscript under review.
+In preparation.
 ```
 
 The final journal citation and DOI will be added after publication.
@@ -890,6 +890,6 @@ Yale University
 Email: [jinseok.lee@yale.edu](mailto:jinseok.lee@yale.edu)
 
 **Yimin Luo**
-Department of Mechanical Engineering and Materials Science
+Department of Mechanical Engineering
 Yale University
 Email: [yimin.luo@yale.edu](mailto:yimin.luo@yale.edu)
