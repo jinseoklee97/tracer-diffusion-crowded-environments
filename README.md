@@ -1,6 +1,6 @@
 
 # Data and code for:
-A framework for modeling and inferring tracer diffusion in crowded environments
+Accessible pore geometry governs tracer diffusion in crowded environments
 
 Authors  
 Jinseok Lee  
