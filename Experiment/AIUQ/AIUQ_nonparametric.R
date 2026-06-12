@@ -11,8 +11,7 @@ library(EBImage)
 library(ijtiff)
 library(here)
 
-#file_name = "SP 0.72 AF_500frame"
-file_name = "40%_1"
+file_name = "SP 0.72 AF_500frame"
 file_path = here("Videos", paste0(file_name, ".tif"))
 
 source(here("Functions", "functions_nonparametric.R"))
