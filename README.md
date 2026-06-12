@@ -96,28 +96,6 @@ The main geometric variables used in the simulation and PPGP analyses are:
 
 ---
 
-## Important path notes
-
-The scripts are written to run relative to their own folders. Some folders are case-sensitive on macOS and Linux.
-
-Current PPGP scripts expect:
-
-```text
-PPGP/Data/Inplane/
-```
-
-Therefore, keep the folder name as `Inplane`, or edit the line defining `inplane_dir` in the PPGP scripts.
-
-The current AIUQ script writes output to:
-
-```text
-Experiment/AIUQ/results/
-```
-
-This is lowercase `results`. The repository may also contain `Results/` as a placeholder folder. To keep outputs in `Results/`, edit the output path in `AIUQ_nonparametric.R`.
-
----
-
 ## Experiment
 
 The `Experiment/` folder contains codes for analyzing experimental microscopy videos.
