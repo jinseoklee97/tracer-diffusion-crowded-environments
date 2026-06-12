@@ -173,10 +173,10 @@ record_data = T
 if(record_data){
   d_input_MSD_record=cbind(data_fft$d_input, MSD_est_optim_no_restart_direct_DDM_fine, MSD_lower, MSD_upper)
   colnames(d_input_MSD_record)=c('d_input', 'n_par_AIUQ', 'lower', 'upper')
-  dir.create("results", showWarnings = FALSE)
+  dir.create("Results", showWarnings = FALSE)
   
   write.csv(d_input_MSD_record,
-            paste0("results/", file_name, "_AIUQ_nonparametric.csv"),
+            paste0("Results/", file_name, "_AIUQ_nonparametric.csv"),
             row.names = FALSE)
 }
 
